@@ -1,0 +1,18 @@
+### 일기 저장
+POST http://localhost:8080/create/Diary?date=2022-05-20
+
+오늘도 코딩하기
+
+### 날짜의 모든 일기 데이터를 가져옵니다.
+GET http://localhost:8080/read/diary?date=2022-05-20
+
+### 시작 날짜와 마지막날짜 기간 동안의 데이터를 가져옵니다.
+GET http://localhost:8080/read/diaries?startDate=2022-05-20&endDate=2022-05-20
+
+### 일기 내용 수정하기
+PUT http://localhost:8080/update/diary?date=2022-05-20
+
+내일도 코딩하기
+
+### 일기 삭제하기
+DELETE http://localhost:8080/delete/diary?date=2022-05-20
